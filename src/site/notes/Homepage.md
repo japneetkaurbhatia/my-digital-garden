@@ -64,10 +64,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 </body>
 </html> 
 
----
 ## card-with-flip
 
-
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -119,6 +118,9 @@ body {
 </head>
 <body>
 
+<h1>Card Flip with Text</h1>
+<h3>Hover over the image below:</h3>
+
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
@@ -134,7 +136,7 @@ body {
 
 </body>
 </html>
----
+
 ## card-with-flip-images
 
 <div class="flip-card">
@@ -147,8 +149,45 @@ body {
     </div>
   </div>
 </div>
- 
- ---
+
+<style>
+  .flip-card {
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+
+  .flip-card-inner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+  }
+
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+</style>
+
 ## card-with-flip-text
 <!DOCTYPE html>
 <html lang="en">
@@ -233,4 +272,4 @@ body {
 </html>
 
 
----
+\

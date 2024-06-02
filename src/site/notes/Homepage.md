@@ -4,7 +4,6 @@
 
 hi
 
-
 | Left Align  | Center Align | Right Align |
 | :---------- | :----------: | ----------: |
 | Row 1 Col 1 | Row 1 Col 2  | Row 1 Col 3 |
@@ -267,11 +266,11 @@ FLIP CARD WITH TEXT ON BOTH
 
 
 Index:
-| Type  |
-| :---------- |
-| Table |
-| [Modal](#modal) |
-| Static Card |
-| Card with Flip |
-| Card with Flip Images |
-| Card with Flip Text |
+# Index
+
+- [Table](#table)
+- [Modal](#modal)
+- [Static Card](#static-card)
+- [Card with Flip](#card-with-flip)
+- [Card with Flip Images](#card-with-flip-images)
+- [Card with Flip Text](#card-with-flip-text)

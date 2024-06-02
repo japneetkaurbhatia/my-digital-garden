@@ -8,8 +8,8 @@
 - [Modal](#modal)
 - [Static Card](#static-card)
 - [Card with Flip](#card-with-flip)
-- [Card with Flip Images](#card-with-flip-images)
 - [Card with Flip Text](#card-with-flip-text)
+-  [Card with Flip Images](#card-with-flip-images)
 
 ## table
 
@@ -135,57 +135,6 @@ body {
 </body>
 </html>
 
-## card-with-flip-images
-
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/AcetoFive.JPG" alt="Front Image">
-    </div>
-    <div class="flip-card-back">
-      <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVsaGl8ZW58MHx8MHx8fDA%3D" alt="Back Image">
-    </div>
-  </div>
-</div>
-
-<style>
-  .flip-card {
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
-  }
-
-  .flip-card-inner {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-  }
-
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-
-  .flip-card-front, .flip-card-back {
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    position: absolute;
-  }
-
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-
-  .flip-card-back {
-    background-color: #2980b9;
-    color: white;
-    transform: rotateY(180deg);
-  }
-</style>
-
 ## card-with-flip-text
 <!DOCTYPE html>
 <html lang="en">
@@ -268,9 +217,9 @@ body {
 
 </body>
 </html>
+---
 
-
-## extra
+## card-with-flip-images
 <!DOCTYPE html>
 <html lang="en">
 <head>

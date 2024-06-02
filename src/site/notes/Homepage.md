@@ -136,7 +136,7 @@ body {
 </html>
 ---
 
-## flip
+## flip card
 
 <!DOCTYPE html>
 <html>
@@ -152,6 +152,8 @@ body {
   width: 300px;
   height: 300px;
   perspective: 1000px;
+  display: inline-block; /* to place cards side by side */
+  margin: 10px; /* space between cards */
 }
 
 .flip-card-inner {
@@ -190,6 +192,18 @@ body {
 </head>
 <body>
 
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/AcetoFive.JPG" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h4><b>Title 1</b></h4> 
+      <h6>Sub Title 1</h6> 
+      <p>Purpose 1</p>
+    </div>
+  </div>
+</div>
 
 <div class="flip-card">
   <div class="flip-card-inner">
@@ -197,13 +211,12 @@ body {
       <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/AcetoFive.JPG" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
-      <h1>John Doe</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
+      <h4><b>Title 2</b></h4> 
+      <h6>Sub Title 2</h6> 
+      <p>Purpose 2</p>
     </div>
   </div>
 </div>
 
 </body>
 </html>
-

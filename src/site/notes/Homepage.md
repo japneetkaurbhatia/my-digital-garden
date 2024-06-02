@@ -11,14 +11,14 @@
 - [Card with Flip Images](#card-with-flip-images)
 - [Card with Flip Text](#card-with-flip-text)
 
-##table
+## table
 
 | Left Align  | Center Align | Right Align |
 | :---------- | :----------: | ----------: |
 | Row 1 Col 1 | Row 1 Col 2  | Row 1 Col 3 |
 | Row 2 Col 1 | Row 2 Col 2  | Row 2 Col 3 |
 
-##modal:
+## modal:
 
 <details id="modal1">
 <summary>Modal Content</summary>
@@ -27,7 +27,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 </details>
 
-##static-card:
+## static-card:
 
  <!DOCTYPE html>
 <html>
@@ -63,7 +63,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 </body>
 </html> 
 
-##card-with-flip
+## card-with-flip
 
 <!DOCTYPE html>
 <html>
@@ -136,7 +136,7 @@ body {
 </body>
 </html>
 
-##card-with-flip-images
+## card-with-flip-images
 
 <div class="flip-card">
   <div class="flip-card-inner">
@@ -187,8 +187,7 @@ body {
   }
 </style>
 
-#card-with-flip-text
-
+## card-with-flip-text
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -271,6 +270,4 @@ body {
 </body>
 </html>
 
-
-Index:
 

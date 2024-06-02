@@ -188,6 +188,14 @@ FLIP CARD WITH TEXT ON BOTH
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Flip Card with Text</title>
 <style>
+  .flip-card-container {
+    background-color: #f0f0f0; /* Background color for the flip card container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
   .flip-card {
     background-color: transparent;
     width: 300px;
@@ -237,15 +245,17 @@ FLIP CARD WITH TEXT ON BOTH
 </head>
 <body>
 
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <h2>Front Side Title</h2>
-      <p>Front side content goes here.</p>
-    </div>
-    <div class="flip-card-back">
-      <h2>Back Side Title</h2>
-      <p>Back side content goes here.</p>
+<div class="flip-card-container">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h2>Front Side Title</h2>
+        <p>Front side content goes here.</p>
+      </div>
+      <div class="flip-card-back">
+        <h2>Back Side Title</h2>
+        <p>Back side content goes here.</p>
+      </div>
     </div>
   </div>
 </div>

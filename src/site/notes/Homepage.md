@@ -27,7 +27,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 </details>
 
-Card:
+##static-card:
+
  <!DOCTYPE html>
 <html>
 <head>
@@ -62,7 +63,7 @@ Card:
 </body>
 </html> 
 
-Flip Card
+##card-with-flip
 
 <!DOCTYPE html>
 <html>
@@ -135,7 +136,8 @@ body {
 </body>
 </html>
 
-Flip Card 2
+##card-with-flip-images
+
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
@@ -185,7 +187,7 @@ Flip Card 2
   }
 </style>
 
-FLIP CARD WITH TEXT ON BOTH
+#card-with-flip-text
 
 <!DOCTYPE html>
 <html lang="en">

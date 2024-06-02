@@ -2,18 +2,23 @@
 {"dg-publish":true,"permalink":"/homepage/","tags":["gardenEntry"]}
 ---
 
-hi
+# Index
+
+- [Table](#table)
+- [Modal](#modal)
+- [Static Card](#static-card)
+- [Card with Flip](#card-with-flip)
+- [Card with Flip Images](#card-with-flip-images)
+- [Card with Flip Text](#card-with-flip-text)
+
+##table
 
 | Left Align  | Center Align | Right Align |
 | :---------- | :----------: | ----------: |
 | Row 1 Col 1 | Row 1 Col 2  | Row 1 Col 3 |
 | Row 2 Col 1 | Row 2 Col 2  | Row 2 Col 3 |
-Modal:
 
-| Button                | Modal Content                                            |
-| --------------------- | -------------------------------------------------------- |
-| [Open Modal](#modal1) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-|                       |                                                          |
+##modal:
 
 <details id="modal1">
 <summary>Modal Content</summary>
@@ -266,11 +271,4 @@ FLIP CARD WITH TEXT ON BOTH
 
 
 Index:
-# Index
 
-- [Table](#table)
-- [Modal](#modal)
-- [Static Card](#static-card)
-- [Card with Flip](#card-with-flip)
-- [Card with Flip Images](#card-with-flip-images)
-- [Card with Flip Text](#card-with-flip-text)

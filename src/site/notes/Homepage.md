@@ -138,7 +138,7 @@ body {
 
 ## flip card :
 
-```html
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -222,4 +222,3 @@ body {
 </body>
 </html>
 
-```

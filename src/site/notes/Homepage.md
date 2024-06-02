@@ -7,9 +7,6 @@
 - [Table](#table)
 - [Modal](#modal)
 - [Static Card](#static-card)
-- [Card with Flip](#card-with-flip)
-- [Card with Flip Images](#card-with-flip-images)
-- [Card with Flip Text](#card-with-flip-text)
 
 ## table
 

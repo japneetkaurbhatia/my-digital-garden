@@ -8,8 +8,8 @@
 - [Modal](#modal)
 - [Static Card](#static-card)
 - [Card with Flip](#card-with-flip)
+- [Card with Flip Images](#card-with-flip-images)
 - [Card with Flip Text](#card-with-flip-text)
--  [Card with Flip Images](#card-with-flip-images)
 
 ## table
 
@@ -135,6 +135,8 @@ body {
 </body>
 </html>
 
+
+
 ## card-with-flip-text
 <!DOCTYPE html>
 <html lang="en">
@@ -217,8 +219,8 @@ body {
 
 </body>
 </html>
----
 
+---
 ## card-with-flip-images
 <!DOCTYPE html>
 <html lang="en">

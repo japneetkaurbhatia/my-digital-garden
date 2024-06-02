@@ -178,3 +178,77 @@ Flip Card 2
     transform: rotateY(180deg);
   }
 </style>
+
+FLIP CARD WITH TEXT ON BOTH
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flip Card with Text</title>
+<style>
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px; /* Adjust height as needed */
+    perspective: 1000px;
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h2>Front Side Title</h2>
+      <p>Front side content goes here.</p>
+    </div>
+    <div class="flip-card-back">
+      <h2>Back Side Title</h2>
+      <p>Back side content goes here.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

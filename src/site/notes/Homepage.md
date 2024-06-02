@@ -270,7 +270,7 @@ Index:
 | Type  |
 | :---------- |
 | Table |
-| [Modal](modal.md) |
+| [Modal](#modal) |
 | Static Card |
 | Card with Flip |
 | Card with Flip Images |

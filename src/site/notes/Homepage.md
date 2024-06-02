@@ -129,7 +129,7 @@ body {
 </body>
 </html>
 
-Flip Card
+Flip Card 2
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">

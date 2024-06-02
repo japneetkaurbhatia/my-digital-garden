@@ -50,7 +50,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 <body>
 
 <div class="card">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/AcetoFive.JPG" alt="Avatar" style="width:100%">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/AcetoFive.JPG" alt="card-image" style="width:100%">
   <div class="container">
     <h4><b>Title</b></h4> 
     <h6>Sub Title</h6> 

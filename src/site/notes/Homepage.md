@@ -47,8 +47,9 @@ Card:
 <div class="card">
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/AcetoFive.JPG" alt="Avatar" style="width:100%">
   <div class="container">
-    <h4><b>John Doe</b></h4> 
-    <p>Architect & Engineer</p> 
+    <h4><b>Title</b></h4> 
+    <h6>Sub Title</h6> 
+	 <p>Purpose</p>
   </div>
 </div>
 

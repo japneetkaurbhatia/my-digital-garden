@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/homepage/","tags":["gardenEntry"]}
 ---
 
-# Index
+# Index - now
 
 - [Table](#table)
 - [Modal](#modal)

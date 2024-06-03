@@ -89,7 +89,7 @@ background-color: #f0f0f0;
 
 .flip-card {
 
-background-color: transparent;
+background-color: #d129aa;
 
 width: 300px;
 

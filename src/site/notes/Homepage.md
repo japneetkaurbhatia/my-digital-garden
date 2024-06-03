@@ -215,3 +215,151 @@ align-items: center;
 </body>
 
 </html>
+
+
+## multiple-card
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+.card {
+
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+transition: 0.3s;
+
+width: 40%;
+
+margin: 10px;
+
+background-color: rgb(127, 230, 31);
+
+}
+
+  
+
+.card:hover {
+
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+  
+
+.container {
+
+padding: 2px 16px;
+
+}
+
+  
+
+.card-container {
+
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: space-around;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+  
+
+<div class="card-container" id="card-container">
+
+</div>
+
+  
+
+<script>
+
+const cardData = [
+
+{
+
+image: "https://upload.wikimedia.org/wikipedia/commons/5/58/AcetoFive.JPG",
+
+title: "Title 1",
+
+subtitle: "Sub Title 1",
+
+purpose: "Purpose 1"
+
+},
+
+{
+
+image: "https://upload.wikimedia.org/wikipedia/commons/5/58/AcetoFive.JPG",
+
+title: "Title 2",
+
+subtitle: "Sub Title 2",
+
+purpose: "Purpose 2"
+
+},
+
+{
+
+image: "https://upload.wikimedia.org/wikipedia/commons/5/58/AcetoFive.JPG",
+
+title: "Title 3",
+
+subtitle: "Sub Title 3",
+
+purpose: "Purpose 3"
+
+}
+
+];
+
+  
+
+const cardContainer = document.getElementById('card-container');
+
+  
+
+cardData.forEach(data => {
+
+const card = document.createElement('div');
+
+card.className = 'card';
+
+card.innerHTML = `
+
+<img src="${data.image}" alt="card-image" style="width:100%">
+
+<div class="container">
+
+<h4><b>${data.title}</b></h4>
+
+<h6>${data.subtitle}</h6>
+
+<p>${data.purpose}</p>
+
+</div>
+
+`;
+
+cardContainer.appendChild(card);
+
+});
+
+</script>
+
+  
+
+</body>
+
+</html>

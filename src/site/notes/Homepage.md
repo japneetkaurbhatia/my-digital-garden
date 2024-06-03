@@ -63,7 +63,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 ---
 
-## flip-card
+## flip-card:
 
 <!DOCTYPE html>
 

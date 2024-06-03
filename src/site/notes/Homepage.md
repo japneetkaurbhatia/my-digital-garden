@@ -7,6 +7,7 @@
 - [Table](#table)
 - [Modal](#modal)
 - [Static Card](#static-card)
+- [Flip Card](#flip-card)
 
 ## table
 
@@ -65,15 +66,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 ## flip-card:
 
-<!DOCTYPE html>
-
 <html lang="en">
 
 <head>
 
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <title>Flip Card with Text</title>
 
@@ -127,7 +126,9 @@ transform: rotateY(180deg);
 
   
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+
+.flip-card-back {
 
 position: absolute;
 
@@ -183,8 +184,6 @@ align-items: center;
 
 <body>
 
-  
-
 <div class="flip-card-container">
 
 <div class="flip-card">
@@ -212,8 +211,6 @@ align-items: center;
 </div>
 
 </div>
-
-  
 
 </body>
 

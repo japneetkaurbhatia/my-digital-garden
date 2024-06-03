@@ -8,6 +8,7 @@
 - [Modal](#modal)
 - [Static Card](#static-card)
 - [Flip Card](#flip-card)
+- [Multi Card](#multi-card)
 
 ## table
 
@@ -217,7 +218,8 @@ align-items: center;
 </html>
 
 
-## multiple-card
+## multiple-card:
+
 <html>
 
 <head>
@@ -226,7 +228,7 @@ align-items: center;
 
 <style>
 
-.card {
+.custom-card {
 
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
@@ -236,13 +238,13 @@ width: 40%;
 
 margin: 10px;
 
-background-color: rgb(127, 230, 31);
+background-color: blueviolet;
 
 }
 
   
 
-.card:hover {
+.custom-card:hover {
 
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
@@ -250,7 +252,7 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
   
 
-.container {
+.custom-container {
 
 padding: 2px 16px;
 
@@ -258,7 +260,7 @@ padding: 2px 16px;
 
   
 
-.card-container {
+.custom-card-container {
 
 display: flex;
 
@@ -276,7 +278,7 @@ justify-content: space-around;
 
   
 
-<div class="card-container" id="card-container">
+<div class="custom-card-container" id="custom-card-container">
 
 </div>
 
@@ -326,7 +328,7 @@ purpose: "Purpose 3"
 
   
 
-const cardContainer = document.getElementById('card-container');
+const cardContainer = document.getElementById('custom-card-container');
 
   
 
@@ -334,13 +336,13 @@ cardData.forEach(data => {
 
 const card = document.createElement('div');
 
-card.className = 'card';
+card.className = 'custom-card';
 
 card.innerHTML = `
 
 <img src="${data.image}" alt="card-image" style="width:100%">
 
-<div class="container">
+<div class="custom-container">
 
 <h4><b>${data.title}</b></h4>
 

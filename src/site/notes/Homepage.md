@@ -8,7 +8,7 @@
 - [Modal](#modal)
 - [Static Card](#static-card)
 - [Flip Card](#flip-card)
-- [Multi Card](#multi-card)
+- [Multi Card](#multiple-card)
 - [Reading-list-tracker](#Reading-list-tracker)
 
 ## table
@@ -368,7 +368,7 @@ cardContainer.appendChild(card);
 
 </html>
 
-## Reading-list-tracker
+## Reading-list-tracker:
 
 | File                                                                                                                                            | Cover                                                                                                                | Author            |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------- |

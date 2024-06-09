@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/homepage/","tags":["gardenEntry"]}
 ---
 
+<link rel="stylesheet" href="card.css">
+
 # Index:
 
 - [Table](#table)
@@ -370,7 +372,6 @@ cardContainer.appendChild(card);
 
 ## reading-list-tracker:
 
-<link rel="stylesheet" href="card.css">
 | File                                                                                                                                            | Cover                                                                                                                | Author            |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------- |
 | [[books/Disc Leverage Your Nature Increase Your Sales - Stephanie Rising\|Disc Leverage Your Nature Increase Your Sales - Stephanie Rising]] | ![](http://books.google.com/books/content?id=cGnCoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api)           | Stephanie Rising  |

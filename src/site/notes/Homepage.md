@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/homepage/","tags":["gardenEntry"]}
 ---
 
-<link rel="stylesheet" href="card.css">
-
 # Index:
 
 - [Table](#table)

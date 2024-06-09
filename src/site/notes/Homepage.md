@@ -9,7 +9,7 @@
 - [Static Card](#static-card)
 - [Flip Card](#flip-card)
 - [Multi Card](#multiple-card)
-- [Reading-list-tracker](#Reading-list-tracker)
+- [Reading-list-tracker](#reading-list-tracker)
 
 ## table
 
@@ -368,8 +368,7 @@ cardContainer.appendChild(card);
 
 </html>
 
-## Reading-list-tracker:
-
+## reading-list-tracker:
 | File                                                                                                                                            | Cover                                                                                                                | Author            |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------- |
 | [[books/The Power of Now - Eckhart Tolle\|The Power of Now - Eckhart Tolle]]                                                                 | ![](http://books.google.com/books/content?id=sQYqRCIhFAMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api) | Eckhart Tolle     |
